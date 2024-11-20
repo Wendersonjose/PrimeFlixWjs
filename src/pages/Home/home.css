@@ -1,0 +1,57 @@
+.lista-filmes {
+  max-width: 800px;
+  margin: 20px auto; /* Ajustando espaçamento */
+  display: grid; /* Alinhando os filmes em grade */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Tornando a grade responsiva */
+  gap: 16px; /* Espaço entre os filmes */
+}
+
+.lista-filmes article {
+  background-color: #FFF;
+  padding: 15px;
+  border-radius: 8px; /* Maior arredondamento */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicionando sombra leve */
+  transition: transform 0.2s, box-shadow 0.2s; /* Suavidade ao passar o mouse */
+}
+
+.lista-filmes article:hover {
+  transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.lista-filmes strong {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #333; /* Cor mais suave */
+}
+
+.lista-filmes img {
+  width: 100%;
+  height: 220px; /* Ajuste proporcional */
+  object-fit: cover; /* Mantém a proporção correta */
+  border-radius: 8px 8px 0 0;
+  transition: transform 0.3s; /* Suavidade ao passar o mouse */
+}
+
+.lista-filmes img:hover {
+  transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.lista-filmes a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #116FEB;
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.lista-filmes a:hover {
+  background-color: #0A4FA0; /* Tom mais escuro no hover */
+}

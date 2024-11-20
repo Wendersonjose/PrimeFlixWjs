@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+PrimeFlix 🎬
+PrimeFlix é uma aplicação incrível para listar filmes e explorar seus detalhes usando a API do The Movie Database (TMDb). Ideal para aqueles que amam cinema e querem estar sempre por dentro das novidades em cartaz.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Pré-requisitos 📋
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-## Available Scripts
+Node.js (versão 16 ou superior)
 
-In the project directory, you can run:
+npm ou yarn (gerenciador de pacotes)
 
-### `npm start`
+Git (para clonar o repositório)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Como executar o projeto 🚀
+Siga os passos abaixo para configurar e rodar o projeto localmente:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone o repositório
+Abra o terminal e execute o comando:
 
-### `npm test`
+bash
+git clone https://github.com/Wendersonjose/PrimeFlix-.git
+Substitua https://github.com/Wendersonjose/PrimeFlix-.git pelo link do repositório no GitHub.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Acesse o diretório do projeto
+Entre no diretório clonado:
 
-### `npm run build`
+bash
+cd nome-do-repositorio
+3. Instale as dependências
+Use um dos seguintes comandos para instalar as dependências do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Com npm:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+npm install
+Com yarn:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+yarn install
+4. Configure o ambiente
+Crie um arquivo .env na raiz do projeto e adicione sua API_KEY da API do TMDb:
 
-### `npm run eject`
+env
+REACT_APP_API_KEY=sua_chave_da_api_aqui
+> Nota: Você pode obter sua chave de API criando uma conta gratuita no TMDb.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Execute o projeto
+Inicie o servidor de desenvolvimento com:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Com npm:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+bash
+npm start
+Com yarn:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+bash
+yarn start
+O projeto estará disponível no navegador em: http://localhost:3000
 
-## Learn More
+6. Build para produção (opcional)
+Para gerar os arquivos otimizados para produção, execute:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Com npm:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+npm run build
+Com yarn:
 
-### Code Splitting
+bash
+yarn build
+Os arquivos otimizados estarão disponíveis na pasta build.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Tecnologias usadas 🛠️
+ReactJS: Biblioteca para construção de interfaces
 
-### Analyzing the Bundle Size
+Axios: Para consumir a API do TMDb
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+React Router: Gerenciamento de rotas no aplicativo
 
-### Making a Progressive Web App
+CSS: Para estilização da aplicação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Toastify: Para exibição de mensagens
 
-### Advanced Configuration
+Funcionalidades 🧩
+Listagem de filmes em cartaz
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Exibição de detalhes de um filme
 
-### Deployment
+Salvamento de filmes favoritos no localStorage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Pesquisa de trailers diretamente no YouTube
 
-### `npm run build` fails to minify
+Redes Sociais 🌐
+GitHub: Wendersonjose
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Instagram: @wenderson.jose_silva
+
+Email: wenderson.teles@icloud.com
+
+Licença 📜
+Este projeto é de uso livre. Você pode usá-lo como base para estudos ou criar seus próprios projetos.
+
+Feito com ❤️ por Wenderson José. 😊
